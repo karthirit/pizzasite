@@ -1,0 +1,67 @@
+
+#navbar-main {
+    box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.09); 
+  }
+  
+  
+.promotion-box,.products-box{
+    background-color: white !important;
+}
+
+.filter-text{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #8c8c8c;
+    line-height: 1;
+    word-spacing: -1px;
+    letter-spacing: -0.2px;
+}
+
+.filter-icons{
+    justify-content: end;
+    text-align: end;
+    font-size: 17px;
+    color: #8c8c8c;
+}
+
+.filter-icons a{
+    margin-left: 12px;
+}
+
+.products-box hr{
+    color: #8c8c8c;
+    height: 2px;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+
+.products-list-box .list-group-item{
+    border: none;
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    color: #8c8c8c;
+    line-height: 1;
+    word-spacing: -1px;
+    letter-spacing: -0.2px;
+    margin-left: 30px;
+}
+
+.products-list-box .list-group-item-active{
+    color: #f54748;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.default-title h5{
+    font-size: 18px;
+    font-weight: 700;
+    color: #2a3149;
+    padding-top: 20px;
+    word-spacing: 3px;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+
+}
+

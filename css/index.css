@@ -1,0 +1,146 @@
+
+/* Lander */
+.lander-box {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #ffe7e7;
+}
+
+.lander-ui-btn {
+    width: 131px;
+    height: 29px;
+    font-size: 12px;
+    border-radius: 35px;
+    font-weight: 600;
+    background-color: white;
+    color: #f54748;
+    margin-bottom: 15px;
+}
+
+#lander-highlight-text {
+    color: #f54748;
+    font-size: 49px;
+}
+
+.lander-title {
+    margin-top: 15px;
+}
+
+.lander-title p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 52px;
+    font-weight: bold;
+    color: black;
+    line-height: 1;
+    word-spacing: -1px;
+    letter-spacing: -0.2px;
+}
+
+#lander-desc {
+    width: 75%;
+}
+
+#lander-desc>h5 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #8c8c8c;
+    line-height: 24px;
+    margin-top: 35px;
+}
+
+.ordernow-btn {
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #f54748;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+
+/*--How to Order--*/
+.order-box {
+    background-color: white !important;
+    text-align: center;
+}
+
+.card-order-deck {
+    margin-bottom: 25px;
+}
+
+.order-img {
+    /* width:362px; 
+    height:272px; */
+    width: 230px;
+    height: 230px;
+    border-radius: 0px;
+}
+
+.order-body .menu-text {
+    width: 100%;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/*--Testimonials Box--*/
+.testimonial-box {
+    background-color: white !important;
+}
+
+.testimonial-content-title {
+    margin-top: 25px;
+}
+
+.testimonial-box .cus-box {
+    margin-top: 35px;
+}
+
+.testimonial-box .cus-content-box {
+    margin-left: 20px;
+}
+
+.testimonial-box .cus-dept {
+    font-size: 14px;
+    font-weight: 400;
+    color: #8c8c8c;
+    margin-top: 3px;
+}
+
+.testimonial-box .cus-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 3px;
+}
+
+.testimonial-ratings {
+    padding-top: 8px;
+}
+
+.testimonial-ratings .rating-icon {
+    font-size: 20px;
+    color: #fcd130
+}
+
+.testimonial-ratings .ratings-count {
+    font-size: 13px;
+    font-weight: 500;
+    color: #8c8c8c;
+    margin-left: 5px;
+}
+
+/*--Download box--*/
+.downloadapp-box {
+    background-color: white !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px !important;
+    padding-bottom: 40px !important;
+}

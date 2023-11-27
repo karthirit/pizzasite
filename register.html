@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <meta http-equiv="refresh" content="5"> -->
+
+    <!--Boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Css Imports-->
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/login.css">
+
+    <title>Register | Pizza Delivery Hub</title>
+
+
+</head>
+<body>
+
+    <!--Navbar content-->
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbar-main">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img weight="30" height="24"  src="imgs/logo.jpeg"  alt='logo'/>
+            
+        </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Stores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cart.html">Cart</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Help</a>
+              </li>
+  
+            </ul>
+            <div class="d-flex navbar-right-widgets">
+                 <h5><i class="fa fa-search"></i></h5>
+                  <a href="login.html">
+                    <button class="btn login-btn" type="button" >Login</button>
+                  </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+  
+      
+
+    <div class="login-form">    
+        <form method="POST" action="http://127.0.0.1:3000/sign-up">
+            <div class="avatar"><i class="fa fa-user"></i></div>
+            <h4 class="modal-title">Regsiter Your Account</h4>
+            <div class="form-group">
+                <input type="text" class="form-control" id="username" placeholder="Username" required="required" name="username">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" id="email" placeholder="Email" required name="email">
+          </div>
+            <div class="form-group">
+                <input type="password" class="form-control" id="pass" placeholder="Password" required="required" name="password">
+            </div>
+            <input type="submit" class="btn btn-primary btn-block btn-lg" value="Register">              
+        </form>			
+        <div class="text-center small">Already a member ? <a href = "login.html">Login</a></div>
+    </div>
+    <hr style="width: 90%;">
+
+
+    <!--Footer-->
+    <div class="footer footer-box" id="footer">
+        <div class="container">     
+            <div class="row">                       
+                <div class="col-lg-4 col-sm-4 col-xs-12">
+                    <div class="single_footer">
+                        <h4>Stores</h4>
+                        <ul>
+                            <li><a href="#">Chennai</a></li>
+                            <li><a href="#">Mumbai</a></li>
+                            <li><a href="#">Hyderabad</a></li>
+                            <li><a href="#">Delhi</a></li>
+                            <li><a href="#">Kolkata</a></li>
+                        </ul>
+                    </div>
+                </div><!--- END COL --> 
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="single_footer single_footer_address">
+                        <h4>Important Link</h4>
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="cart.html">Cart</a></li>
+                            <li><a href="#">Orders</a></li>
+                        </ul>
+                    </div>
+                </div><!--- END COL -->
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="single_footer single_footer_address">
+                        <h4>Connect with us</h4>
+                        <div class="signup_form">                           
+                            <form action="#" class="subscribe">
+                                <input type="text" class="subscribe__input" placeholder="Enter Email Address">
+                                <button type="button" class="subscribe__btn"><i class="fa fa-paper-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="social_profile">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>                          
+                </div><!--- END COL -->         
+            </div><!--- END ROW --> 
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-xs-12">
+                    <p class="copyright">Copyright © 2022 <a href="#">ItalianPizza</a></p>
+                </div><!--- END COL -->                 
+            </div><!--- END ROW -->                 
+        </div><!--- END CONTAINER -->
+    </div>
+
+</body>
+
+
+</html>    
